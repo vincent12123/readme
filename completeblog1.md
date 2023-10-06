@@ -301,4 +301,4 @@ def edit_pos():
     posts = BlogPost.query.order_by(BlogPost.date_posted.desc()).all()
     return render_template('list_edit.html', posts=posts)
 ```
-! download file templates dan static [disini](https://tracerstudy.stbapontianak.ac.id/completestatic.zip)
+> download file templates dan static [disini](https://tracerstudy.stbapontianak.ac.id/completestatic.zip)
