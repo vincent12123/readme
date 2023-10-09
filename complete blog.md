@@ -25,6 +25,12 @@ flasklogin1
 └── run.py
 
 ```
+Weighted Mean Grade didefinisikan sebagai:
+
+$$
+\text{Weighted Mean Grade} = \frac{\sum (\text{Nilai Mata Kuliah} \times \text{Bobot Mata Kuliah})}{\sum \text{Bobot Mata Kuliah}}
+$$
+
 ## database.py 
 
 ```python
